@@ -1,12 +1,9 @@
 /* Nested hover change button color on hover */
 
 button {
-  /* Set text color to red */
-  color: #FF0000;
+    color: #FF0000;
 
-  /* Nested declaration for hover state */
-  &:hover {
-    /* Change text color to green on hover */
-    color: #00FF00;
-  }
+    &:hover {
+        color: #00FF00;
+    }
 }
